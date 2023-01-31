@@ -1,0 +1,57 @@
+This is the formula for making css
+Selector {
+    Property: value;
+}
+
+For example 
+h2 {
+    color:red;
+    background-color: blue;
+
+}
+
+Css does cascading. whatever recent input of selector is entered will be the default shown 
+on the website.
+
+You can have multiple style sheets on file to link one to a different html
+
+Keep css and html separate for no concerns.
+
+<div> is used as an id selector on css file 
+
+for text examples
+line-height: 20px;
+font-style: italic;
+font-family: "times new roman";
+
+for images add 
+img{
+    float: center;
+}
+
+Margin Border Padding Content 
+Use Div for the words above
+Margin spaces outside the border
+Border spaces within the border
+Padding spaces within the padding in the border
+Conent would be the text or image in the center of it all 
+YOu can do width and height in the content as well
+
+px vs em vs rem 
+PX = size of font
+em = NUMBER will be times the containing element
+REM = number will always be twice the size of the document
+when you span you edit the font within the <span> however you want 
+
+WHATEVER YOU PUT IN HTML YOU CAN EDIT ON CSS FILE BY TAKING THE TAG, CLASS, SELECTOR AND USING
+IT AS A SELECTOR ON CSS LIKE HOW ALL CSS IS.
+
+
+
+Links for help 
+
+For Properties and tags https://css-tricks.com/almanac/
+For selectors https://www.w3schools.com/cssref/css_selectors.php
+For fonts https://fonts.googleapis.com/   - enter this in html file 
+For images add this to html file  <img src="enter image link here" width="" height=""
+Use an image in a full backgorund - https://css-tricks.com/perfect-full-page-background-image/
